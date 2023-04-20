@@ -1,0 +1,21 @@
+.TH man 1 "18 March 2023" "0.0" "simple shell man page"
+.SH NAME
+.B simple shell
+- execute keyboard commands
+.SH SYNONSIS
+.B ./hsh
+ ... [COMMAND] [OPTION] [ARGUMENT]
+.SH DESCRIPTION
+executes commands taken from standard input.
+.SH OPTIONS
+shows the directory contents in long form
+.SH ARGUMENTS
+commands take arguments such as filenames
+.SH INVOCATION
+invoked by entering './'
+.SH ENVIRONMENT
+ starts as the same as shell and user calling it (can be changed)
+.SH BUGS
+no wildcards
+.SH AUTHORS
+Natalia Heredia
